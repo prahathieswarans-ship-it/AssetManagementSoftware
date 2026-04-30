@@ -17,7 +17,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 create_assets_table()
 create_users_table()
 create_procurements_table()
